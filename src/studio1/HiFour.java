@@ -9,13 +9,13 @@ import java.util.Scanner;
 public class HiFour {
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		System.out.print("Enter value for arg 0: ");
+		System.out.print("Hi Cormen, Leiserson. How are you?");
 		String s0 = in.nextLine();
-		System.out.print("Enter value for arg 1: ");
+		System.out.print("Hi Leiserson. Nice to see you.");
 		String s1 = in.nextLine();
-		System.out.print("Enter value for arg 2: ");
+		System.out.print("Hi, Rivest. Good to see you. ");
 		String s2 = in.nextLine();
-		System.out.print("Enter value for arg 3: ");
+		System.out.print("Hi Stein. Hope you are doing well ");
 		String s3 = in.nextLine();
 		//
 		// Say hello to the names in s0 through s3.
